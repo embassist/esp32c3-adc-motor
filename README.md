@@ -17,9 +17,17 @@
 - IR+ -> esp pin4/5
 - IR- -> esp gnd
 
-## Flow:
+## Values:
 ADC IR values go about that:
-- ~1700 on the table
-- ~1770 nicely covered with hand
-- ~2160 when the IR is missing (not wired)
-- ~1660 with phone lighter level 5 touching IR
+
+- bigger IR:
+     - ~1700 on the table
+     - ~1770 nicely covered with hand
+     - ~2160 when the IR is missing (not wired)
+     - ~1660 with phone lighter level 5 touching IR
+
+- smaller IR:
+     - ~1960 on the table
+     - slowly goes up to 3500 nicely covered with hand
+     - ~2160 when the IR is missing (not wired)
+     - ~1660 with phone lighter level 5 touching IR
